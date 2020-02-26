@@ -71,6 +71,7 @@ void mm_free(void *bp);
 static void *coalesce(void *bp);
 /*
  *
+ *
  * 创建开始空闲链表
  */
 //指向第一个块(序言块)
